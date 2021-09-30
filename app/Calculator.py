@@ -1,3 +1,4 @@
+# This is a calculator 
 p = input("What is the first character?")
 q = input("What is the Second character?")
 
