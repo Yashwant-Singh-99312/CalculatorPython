@@ -1,13 +1,22 @@
-class Calculator():
+p = input("What is the first character?")
+q = input("What is the Second character?")
 
-    def suma(self, num1, num2):
-        return num1 + num2
 
-    def resta(self, num1, num2):
-        return num1 - num2
 
-    def multiplicar(self, num1, num2):
-        return num1 * num2
+operator = input("What would you like to do?")
 
-    def dividir(self, num1, num2):
-        return num1 / num2
+if operator == "+":
+    result = float(p) + float(q)
+    print(result)
+
+elif operator == "-":
+    result = float(p) - float(q)
+    print(result)        
+
+elif operator == "x":
+    result = float(p) * float(q)
+    print(result)        
+
+elif operator == "/":
+    result = float(p) / float(q)
+    print(result)
